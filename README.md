@@ -272,4 +272,6 @@ sudo systemctl status jenkins-agent.service
 4. Check connection status on node agent page in GUI (should say 'Agent is connected')
 
 
+This completes the guide, you should now have a Jenkins Server complete with an Agent.
+
 
