@@ -111,9 +111,10 @@ sudo openssl pkcs12 \
 # replace placeholders
 
 ```
-### Once the key is generated, give ownership to the Jenkins user:
+### Once the key is generated, assure correct ownership:
 
 ```
+id -u # (this should output 1000, if not change the latter command to match the output) 
 sudo chown 1000:1000 ~/jenkins/p12-key/jenkins.p12
 
 ```
